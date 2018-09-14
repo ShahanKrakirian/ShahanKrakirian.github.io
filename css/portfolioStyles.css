@@ -1,0 +1,167 @@
+body{
+    font-family: 'Anton', sans-serif;
+    padding-top:60px;
+    background-color:#EFEFEF !important;
+}
+
+#navbar {
+    background-color: #EFEFEF;
+    transition: top 0.3s;
+}
+
+/*Colors*/
+
+#navbar a:hover {
+    color: #FF3b3F;
+}
+
+h1{
+    color: #8a8a8a !important;
+}
+
+.carbon{
+    color:#A9A9A9
+}
+
+h5{
+    color: #8a8a8a !important;
+}
+
+/*Images*/ 
+
+
+#doctor-dojo{
+    height:165px;
+    width: 260px;
+    background-size: cover;
+	background-repeat: no-repeat;
+    background-image: url("../media/Doctor-Dojo.png");
+}
+
+#helping-hand{
+    height:165px;
+    width: 260px;
+    background-size: cover;
+	background-repeat: no-repeat;
+    background-image: url("../media/Helping-Hand.png");
+}
+
+#band-builder{
+    height:165px;
+    width: 260px;
+    background-size: cover;
+	background-repeat: no-repeat;
+    background-image: url("../media/Band-Builder.png");
+}
+
+.profile-photo-bucket{
+    max-width:280px;
+    height:auto;
+}
+
+.img{
+    max-height: 225px; 
+    width: auto; 
+    object-fit: contain;
+}
+
+.main-image{
+    max-height:225px;
+    width:auto;
+    object-fit:contain;
+    border-radius:50%;
+}
+
+.project-image{
+    max-height:165px;
+    width:auto;
+    object-fit:contain;
+}
+
+.skill-image{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+}
+
+.opacity{
+    opacity: 0.15;
+}
+
+.hide{
+    display: none;
+}
+
+.display{
+    display:inline-block !important;
+    margin: 25% auto !important;
+    opacity: 1 !important;
+}
+
+/*Page arrangement*/
+
+.center{
+    text-align: center !important;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+#intro{
+    margin-top:-40px;
+}
+
+hr{
+    width: 80%;
+}
+.margin{
+    margin: 0px 20px;
+}
+
+.doctor-dojo-text{
+    width:260px;
+}
+
+.link{
+    height:40px !important;
+    width:40px !important;
+}
+
+/*Media queries*/
+
+@media only screen and (max-width: 767px) {
+    .text-align-center-sm-and-down{
+        text-align:center;
+    }
+    .block{
+        display:block !important;
+    }
+    .set-width{
+        width:260px !important;
+        margin: 0 auto !important;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .none{
+        display: none;
+    }
+    .right-30{
+        margin-left:30px !important;
+    }
+}
+
+/*Buttons*/
+
+#links a{
+    box-shadow: 5px 10px #CAEBF2;
+}
+
+footer{
+    background-color: #f8f9fa!important;
+}
+
+.font-tiny{
+    font-size:10px;
+}
