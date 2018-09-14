@@ -118,6 +118,9 @@ hr{
 .margin{
     margin: 0px 20px;
 }
+.margin-auto{
+    margin:0 auto !important;
+}
 
 .doctor-dojo-text{
     width:260px;
@@ -146,9 +149,6 @@ hr{
 @media only screen and (min-width:768px){
     .none{
         display: none;
-    }
-    .right-30{
-        margin-left:30px !important;
     }
 }
 
